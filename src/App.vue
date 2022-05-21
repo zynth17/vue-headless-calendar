@@ -1,10 +1,16 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue';
+import Calendar from './components/Calendar.vue';
+import MonthTitle from './components/MonthTitle.vue';
+import ButtonNext from './components/ButtonNext.vue';
 </script>
 
 <template>
 	<div class="wrapper">
-		<hello-world msg="You did it!" />
+		<Calendar>
+			<MonthTitle />
+
+			<ButtonNext />
+		</Calendar>
 	</div>
 </template>
 
