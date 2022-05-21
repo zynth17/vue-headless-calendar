@@ -1,14 +1,14 @@
 {
-	"name": "my-lib",
+	"name": "vue-headless-calendar",
 	"files": [
 		"dist"
 	],
-	"main": "./dist/my-lib.umd.js",
-	"module": "./dist/my-lib.es.js",
+	"main": "./dist/vue-headless-calendar.umd.js",
+	"module": "./dist/vue-headless-calendar.es.js",
 	"exports": {
 		".": {
-			"import": "./dist/my-lib.es.js",
-			"require": "./dist/my-lib.umd.js"
+			"import": "./dist/vue-headless-calendar.es.js",
+			"require": "./dist/vue-headless-calendar.umd.js"
 		}
 	},
 	"version": "0.0.1",
@@ -44,7 +44,9 @@
 		"prettier": "^2.5.1",
 		"start-server-and-test": "^1.14.0",
 		"typescript": "~4.6.3",
+		"unplugin-vue-define-options": "^0.6.1",
 		"vite": "^2.9.5",
+		"vite-plugin-vue-type-imports": "^0.2.0",
 		"vitest": "^0.12.7",
 		"vue-tsc": "^0.34.7"
 	}

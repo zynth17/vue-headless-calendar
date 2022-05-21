@@ -2,14 +2,18 @@
 import Calendar from './components/Calendar.vue';
 import MonthTitle from './components/MonthTitle.vue';
 import ButtonNext from './components/ButtonNext.vue';
+import ButtonPrev from './components/ButtonPrev.vue';
 </script>
 
 <template>
 	<div class="wrapper">
 		<Calendar>
-			<MonthTitle />
+			<div>
+				<MonthTitle />
 
-			<ButtonNext />
+				<ButtonPrev />
+				<ButtonNext />
+			</div>
 		</Calendar>
 	</div>
 </template>
